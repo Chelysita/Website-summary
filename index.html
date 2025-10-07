@@ -8,28 +8,34 @@
     <title>Summary creator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the summary generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the website to be summarized"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-    </main>
-    <footer>
-      This was coded by Araceli Medina and is
-      <a href="https://github.com/Chelysita/Website-summary.git" target="_blank"
-        >open-sourced</a
-      >
-      on GitHub and it is hosted on Netlify.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Welcome to the summary generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the website to be summarized"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+      </main>
+
+      <footer>
+        This was coded by Araceli Medina and is
+        <a
+          href="https://github.com/Chelysita/Website-summary.git"
+          target="_blank"
+          >open-sourced</a
+        >
+        on GitHub and it is hosted on Netlify.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
